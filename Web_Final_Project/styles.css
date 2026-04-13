@@ -394,6 +394,31 @@ section {
     font-size: 16px;
 }
 
+/* TIMELINE */
+.timeline {
+    margin: 0;
+    max-width: 750px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    font-family: 'fira sans', sans-serif;
+    color: #ffffff;
+}
+
+.timeline-item {
+    margin: 0 20px 20px 20px;
+
+}
+
+.timeline-item.right {
+    text-align: right;
+}
+
+.timeline-middle {
+    position: relative;
+    background: white;
+}
+
 @media(max-width:1285px) {
     #menu-icon {
         display: block;
